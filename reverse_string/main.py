@@ -6,13 +6,13 @@ if __name__ == "__main__":
 
 # using a loop
 
-# def reverse_string2(sentence: str):
-#     result_string = ""
-#     for x in sentence:
-#         result_string = x + result_string
-#     return(result_string)
+def reverse_string2(sentence: str):
+    result_string = ""
+    for x in sentence:
+        result_string = x + result_string
+    return(result_string)
 
 
 
 
-# print(reverse_string2("Random"))
+print(reverse_string2("Random"))
